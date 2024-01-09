@@ -42,4 +42,12 @@ most modern GPUs also support 16-bit floating point numbers with less precision
 
 aims to use integers instead of floating point numbers for weights and biases while maintaining the accuracy of the model
 
+integers operations are much faster than floating point operations
 
+quantize - dequantize
+
+during quantization we usually lose some precision and model is not as accurate as it was before
+
+**types**
+
+1) asymmetric - symmentric
